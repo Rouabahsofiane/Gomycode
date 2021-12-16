@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto+Mono:ital@1&display=swap');
+
+body{
+    margin: 10;
+    padding: 10;
+    font-family: 'Playfair Display', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+    color :#717171;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    margin-left: 100px ;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(dota2.jpg);
+    background-size: cover;
+    color: black;
+    padding: 40px;
+
+}
+header h1{ 
+    font-size: 50px;
+}
+header h4{ 
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ffff;
+}
+header button{ 
+    padding: 10px 20px;
+    background-color: wheat;
+    border: none
+    ;
+}
